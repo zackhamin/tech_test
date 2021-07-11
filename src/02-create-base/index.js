@@ -6,9 +6,10 @@
 module.exports = function createBase(integer) {
  return function numberFunc (integer) {
   if(integer > 0) {
-    return integer + 10
-  } else {
-    return integer - 20
+    return integer +10
+  } 
+  if(integer < 0 ) {
+    return integer -20
   }
 
  }
