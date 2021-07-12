@@ -8,7 +8,7 @@
  */
 
 // Average and worst case time complexity (Big-O) of my function is: On2
-// Explain: This sorting algorithm is On2. Because it uses two loops which both run at n times to complete the sort.
+// Explain: This sorting algorithm is On2. Because it uses nested for loops which both run at n times to complete the sort.
 
 module.exports = function sortArray(arr) {
   var temp = [];
